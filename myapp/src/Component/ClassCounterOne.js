@@ -5,7 +5,8 @@ export class ClassCounterOne extends Component {
       super(props)
     
       this.state = {
-         count:0
+         count:0,
+         name:''
       }
     }
     componentDidMount (){
@@ -18,6 +19,7 @@ export class ClassCounterOne extends Component {
   render() {
     return (
       <div>
+        
         <button onClick={()=> this.setState({count:this.state.count + 1})}>Click {this.state.count} times</button>
       </div>
     )
