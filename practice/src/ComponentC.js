@@ -1,10 +1,12 @@
 import React from 'react'
-import ComponentE from './ComponentE'
+// import ComponentE from './ComponentE'
+import ComponentH from './ComponentH'
 
 function ComponentC() {
   return (
     <div>
-      <ComponentE/>
+      {/* <ComponentE/> */}
+      <ComponentH/>
     </div>
   )
 }
