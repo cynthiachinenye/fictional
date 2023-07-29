@@ -7,6 +7,7 @@ import './App.css';
 //  export const channelContext = React.createContext()
 // import CounterOnes from './Components/CounterOnes';
 import CounterTwo from './Components/CounterTwo';
+import CounterThree from './Components/CounterThree';
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,8 @@ function App() {
       </channelContext.Provider>
       </userContext.Provider> */}
       {/* <CounterOnes/> */}
-      <CounterTwo/>
+      {/* <CounterTwo/> */}
+      <CounterThree/>
     </div>
   );
 }
