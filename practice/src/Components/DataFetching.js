@@ -6,6 +6,7 @@ function DataFetching() {
         axios.get= ('https://jsonplaceholder.typicode.com/todos/1')
         .then(res => {
             console.log('res')
+            setPost(res.data)
         })
         .catch(err => {
             console.log('err')
