@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 // import DataFetchingOne from './Components/DataFetchingOne';
-// import DataFetchingTwo from './Components/DataFetchingTwo';
+import DataFetchingTwo from './Components/DataFetchingTwo';
 // import ComponentC from './ComponentC';
 // import DataFetching from './Components/DataFetching';
 //  export const userContext = React.createContext()
@@ -30,10 +30,10 @@ import CounterThree from './Components/CounterThree';
 // }
 function App() {
   // const [count, dispatch] = useReducer(reducer,initial)
-  // return (
+  return (
     // <countContext.Provider value={{countState:count, countDispatch:dispatch}}>
     <div className="App">
-       {/* <DataFetch/ingTwo /> */}
+       <DataFetchingTwo />
       {/* <DataFetching/> */}
       {/* <userContext.Provider value={'Cynthia'}>
         <channelContext.Provider value= {'codevolution'}>
@@ -42,7 +42,7 @@ function App() {
       </userContext.Provider> */}
       {/* <CounterOnes/> */}
       {/* <CounterTwo/> */}
-      <CounterThree/>
+      {/* <CounterThree/> */}
       {/* <div>Count - {count}</div>
       
       <ComponentC/> */}
@@ -52,7 +52,7 @@ function App() {
      
     </div>
     // </countContext.Provider>
-  // );
+   );
 }
 
 export default App;
