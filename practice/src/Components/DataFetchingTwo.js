@@ -29,6 +29,7 @@ import axios from 'axios'
   }
 function DataFetchingTwo() {
     const [state,dispatch] = useReducer(reducer,initial)
+    
     useEffect(() => {
          axios.get('https://jsonplaceholder.typicode.com/posts/1')
          .then(res =>{
@@ -38,7 +39,7 @@ function DataFetchingTwo() {
         .catch(error =>{
            dispatch({type:'FETCH_ERROR'})
         })
-    })
+    },[])
   return (
     <div>
       

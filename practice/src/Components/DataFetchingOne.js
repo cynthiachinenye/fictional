@@ -21,8 +21,7 @@ function DataFetchingOne() {
     
   return (
     <div>
-        
-        
+       
       {load? 'loading':post.title}
       {error?'error':null}
     </div>

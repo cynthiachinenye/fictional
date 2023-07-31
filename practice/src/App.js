@@ -1,15 +1,24 @@
 
 import React from 'react';
 import './App.css';
+import FocusInput from './Components/FocusInput';
+import ClassTimer from './Components/ClassTimer';
+import FocusTimer from './Components/FocusTimer';
+import CustomHookOne from './Components/CustomHookOne';
+import CustomHookTwo from './Components/CustomHookTwo';
+import CounterCustom from './Components/CounterCustom';
+import CounterCustomTwo from './Components/CounterCustomTwo';
+import FormInputCustom from './Components/FormInputCustom';
+// import Counter from './Components/Counter';
 // import DataFetchingOne from './Components/DataFetchingOne';
-import DataFetchingTwo from './Components/DataFetchingTwo';
+// import DataFetchingTwo from './Components/DataFetchingTwo';
 // import ComponentC from './ComponentC';
 // import DataFetching from './Components/DataFetching';
 //  export const userContext = React.createContext()
 //  export const channelContext = React.createContext()
 // import CounterOnes from './Components/CounterOnes';
 // import CounterTwo from './Components/CounterTwo';
-import CounterThree from './Components/CounterThree';
+// import CounterThree from './Components/CounterThree';
 // import ComponentA from './Components/ComponentA';
 // import ComponentB from './Components/ComponentB';
 // import ComponentC from './ComponentC';
@@ -33,7 +42,7 @@ function App() {
   return (
     // <countContext.Provider value={{countState:count, countDispatch:dispatch}}>
     <div className="App">
-       <DataFetchingTwo />
+       {/* <DataFetchingTwo /> */}
       {/* <DataFetching/> */}
       {/* <userContext.Provider value={'Cynthia'}>
         <channelContext.Provider value= {'codevolution'}>
@@ -49,9 +58,18 @@ function App() {
       {/* <ComponentA/> */}
       {/* <ComponentB/> */}
       {/* <DataFetchingOne/> */}
-     
+     {/* <FocusInput/> */}
+      {/* <Counter/> */}
+      {/* <ClassTimer/>
+      <FocusTimer/>
+      <CustomHookOne/>
+      <CustomHookTwo/> */}
+      <CounterCustom/>
+      <CounterCustomTwo/>
+      <FormInputCustom/>
     </div>
     // </countContext.Provider>
+    
    );
 }
 
