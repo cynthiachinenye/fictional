@@ -1,13 +1,15 @@
 
 import './App.css';
-import UseReducer from './Components/UseReducer/UseReducer';
+import Parent from './Components/ParentChild/Parent';
+
+
 // import UseState from './Components/UseState/UseState';
 
 function App() {
   return (
     <div className="App">
       {/* <UseState/> */}
-      <UseReducer/>
+      <Parent/>
       </div>
   );
 }
