@@ -1,6 +1,6 @@
 
 import './App.css';
-import Parent from './Components/ParentChild/Parent';
+import ParentOne from './Components/Optimization/ParentOne';
 
 
 // import UseState from './Components/UseState/UseState';
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       {/* <UseState/> */}
-      <Parent/>
+      <ParentOne/>
       </div>
   );
 }
