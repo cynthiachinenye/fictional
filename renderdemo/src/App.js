@@ -1,6 +1,7 @@
 
 import './App.css';
-import ParentFour from './Components/IncorrectOptimization/ParentFour';
+import ContextParent from './Components/Context/ContextParent';
+// import ParentFour from './Components/IncorrectOptimization/ParentFour';
 
 
 
@@ -10,7 +11,7 @@ function App() {
   return (
     <div className="App">
       {/* <UseState/> */}
-    <ParentFour/>
+     <ContextParent/>
       </div>
   );
 }
